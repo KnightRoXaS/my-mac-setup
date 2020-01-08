@@ -1,8 +1,8 @@
 [color]
         ui = true
 [user]
-        name = Nathakorn Chaninthanadecha
-        email = nathakorn.tonch@gmail.com
+        name = Sitipart Paripunnapok
+        email = maxtaller@gmail.com
 [core]
         autocrlf = input
         excludesfile = ~/.gitignore_global

@@ -18,20 +18,6 @@
     state: link
     force: yes
 
-- name: Link hyper.js
-  file:
-    src: ~/.dotfiles/misc/hyper.js
-    path: ~/.hyper.js
-    state: link
-    force: yes
-
-- name: Link vimrc
-  file:
-    src: ~/.dotfiles/misc/vimrc
-    path: ~/.vimrc
-    state: link
-    force: yes
-
 - name: Link gemrc
   file:
     src: ~/.dotfiles/ruby/gemrc
@@ -39,10 +25,10 @@
     state: link
     force: yes
 
-- name: Link bash_profile
+- name: Link zprofile
   file:
-    src: ~/.dotfiles/shell/bash_profile
-    path: ~/.bash_profile
+    src: ~/.dotfiles/shell/zprofile
+    path: ~/.zprofile
     state: link
     force: yes
 
@@ -52,11 +38,3 @@
     path: ~/.zshrc
     state: link
     force: yes
-
-- name: Link ssh-config
-  file:
-    src: ~/.dotfiles/ssh/ssh-config
-    path: ~/.ssh/config
-    state: link
-    force: yes
-    ignore: yes

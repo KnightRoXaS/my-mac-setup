@@ -5,10 +5,6 @@
 - name: Install mas apps
   command: mas install '{{ item.id }}'
   with_items:
-    - { id: 1445910651, name: 'Dynamo' }
-    - { id: 1101735327, name: 'Leech' }
-    - { id: 1063631769, name: 'Medis' }
-    - { id: 499695659, name: 'Skip Tunes' }
     - { id: 1153157709 , name: 'Speedtest'}
     - { id: 441258766, name: 'Magnet' }
     - { id: 409183694, name: 'Keynote' }

@@ -1,3 +1,6 @@
 ---
 - name: Start Redis
   command: /usr/local/bin/brew services start redis
+
+- name: Start Postgresql
+  command: /usr/local/bin/brew services start postgresql

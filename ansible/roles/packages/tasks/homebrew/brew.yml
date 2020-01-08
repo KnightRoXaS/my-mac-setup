@@ -4,13 +4,14 @@
   command: brew install "{{ item }}"
   with_items:
     - ack
-    - asciinema
-    - asciiquarium
     - curl
     - git
+    - git-flow
+    - postgresql
+    - pyenv
     - redis
-    - sl
     - sqlite
     - thefuck
     - tree
     - wget
+
